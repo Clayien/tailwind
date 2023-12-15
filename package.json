@@ -3,7 +3,6 @@
   "version": "0.0.1-alpha",
   "description": "Preset for clayien projects",
   "main": "index.js",
-  "type": "module",
   "private": false,
   "publishConfig": {
     "access": "public"
