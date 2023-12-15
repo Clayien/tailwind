@@ -5,26 +5,33 @@ const color = {
   darkGray: "#838383",
 };
 
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: "Poppins",
-        mono: "Roboto Mono",
+        sans: ["Poppins", "sans-serif"],
+        mono: ["Roboto Mono", "mono"],
       },
       colors: {
         text: {
           dark: color.white,
+          DEFAULT: color.white,
           light: color.black,
         },
-        "text-secondary": { dark: color.darkGray, light: color.lightBlack },
-
+        "text-secondary": {
+          dark: color.darkGray,
+          DEFAULT: color.darkGray,
+          light: color.lightBlack,
+        },
         background: {
           dark: color.black,
+          DEFAULT: color.black,
           light: color.white,
         },
         "background-secondary": {
           dark: color.lightBlack,
+          DEFAULT: color.lightBlack,
           light: color.darkGray,
         },
       },

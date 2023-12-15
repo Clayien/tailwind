@@ -3,6 +3,7 @@
   "version": "0.0.1-alpha",
   "description": "Preset for clayien projects",
   "main": "index.js",
+  "type": "module",
   "private": false,
   "publishConfig": {
     "access": "public"
@@ -19,5 +20,8 @@
     "clayien"
   ],
   "author": "SymphonySimper",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.3.6"
+  }
 }
