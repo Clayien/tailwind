@@ -15,24 +15,25 @@ module.exports = {
       },
       colors: {
         text: {
-          dark: color.white,
           DEFAULT: color.white,
+          dark: color.white,
           light: color.black,
+          secondary: {
+            DEFAULT: color.darkGray,
+            dark: color.darkGray,
+            light: color.lightBlack,
+          },
         },
-        "text-secondary": {
-          dark: color.darkGray,
-          DEFAULT: color.darkGray,
-          light: color.lightBlack,
-        },
+
         background: {
-          dark: color.black,
           DEFAULT: color.black,
+          dark: color.black,
           light: color.white,
-        },
-        "background-secondary": {
-          dark: color.lightBlack,
-          DEFAULT: color.lightBlack,
-          light: color.darkGray,
+          secondary: {
+            DEFAULT: color.lightBlack,
+            dark: color.lightBlack,
+            light: color.darkGray,
+          },
         },
       },
       padding: {
