@@ -3,6 +3,10 @@
   "version": "0.0.1-alpha",
   "description": "Preset for clayien projects",
   "main": "index.js",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
