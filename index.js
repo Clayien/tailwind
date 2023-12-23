@@ -52,7 +52,7 @@ module.exports = {
         hover: ["#fff", "#C0C0C0"],
       },
       height: {
-        17: "4.5rem /* 72px */",
+        17: "4.5rem",
       },
     },
   },
