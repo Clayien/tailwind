@@ -51,6 +51,13 @@ module.exports = {
       gradientColorStops: {
         hover: ["#fff", "#C0C0C0"],
       },
+      height: {
+        box: {
+          small: "1.5rem",
+          DEFAULT: "3.5rem",
+          max: "4.5rem",
+        },
+      },
     },
   },
 };
