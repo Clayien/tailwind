@@ -1,13 +1,3 @@
-const color = {
-  white: "#FFFFFF",
-  black: "#111111",
-  lightBlack: "#252525",
-  darkGray: "#838383",
-  green: "#6FFF7D",
-  red: "#FF8888",
-  yellow: "#FFF96F",
-};
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   theme: {
@@ -17,32 +7,26 @@ module.exports = {
         mono: ["Roboto Mono", "mono"],
       },
       colors: {
-        text: {
-          DEFAULT: color.white,
-          dark: color.white,
-          light: color.black,
-          secondary: {
-            DEFAULT: color.darkGray,
-            dark: color.darkGray,
-            light: color.lightBlack,
+        clayien: {
+          black: {
+            DEFAULT: "#111111",
+            light: "#252525",
           },
-        },
-
-        background: {
-          DEFAULT: color.black,
-          dark: color.black,
-          light: color.white,
-          secondary: {
-            DEFAULT: color.lightBlack,
-            dark: color.lightBlack,
-            light: color.darkGray,
+          gray: {
+            DEFAULT: "#838383",
           },
-        },
-
-        special: {
-          red: color.red,
-          green: color.green,
-          yellow: color.yellow,
+          white: {
+            DEFAULT: "#FFFFFF",
+          },
+          red: {
+            DEFAULT: "#FF8888",
+          },
+          green: {
+            DEFAULT: "#6FFF7D",
+          },
+          yellow: {
+            DEFAULT: "#FFF96F",
+          },
         },
       },
       padding: {
