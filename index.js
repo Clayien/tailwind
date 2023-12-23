@@ -3,6 +3,9 @@ const color = {
   black: "#111111",
   lightBlack: "#252525",
   darkGray: "#838383",
+  green: "#6FFF7D",
+  red: "#FF8888",
+  yellow: "#FFF96F",
 };
 
 /** @type {import('tailwindcss').Config} */
@@ -34,6 +37,12 @@ module.exports = {
             dark: color.lightBlack,
             light: color.darkGray,
           },
+        },
+
+        special: {
+          red: color.red,
+          green: color.green,
+          yellow: color.yellow,
         },
       },
       padding: {
