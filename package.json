@@ -1,6 +1,6 @@
 {
   "name": "@clayien/tailwind",
-  "version": "0.0.2",
+  "version": "0.0.21",
   "description": "Preset for clayien projects",
   "main": "index.js",
   "private": false,
