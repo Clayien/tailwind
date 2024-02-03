@@ -1,6 +1,6 @@
 {
   "name": "@clayien/tailwind",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "Preset for clayien projects",
   "main": "index.js",
   "private": false,
@@ -21,6 +21,6 @@
   "author": "SymphonySimper",
   "license": "ISC",
   "dependencies": {
-    "tailwindcss": "^3.4.0"
+    "tailwindcss": "^3.4.1"
   }
 }
