@@ -29,14 +29,12 @@ module.exports = {
           },
         },
       },
-      padding: {
-        max: "max(calc((100vw - 1248px)/2),6.6%)",
-      },
       gradientColorStops: {
         hover: ["#fff", "#C0C0C0"],
       },
       spacing: {
         18: "4.5rem",
+        max: "max(calc((100vw - 1248px)/2),6.6%)",
       },
     },
   },
